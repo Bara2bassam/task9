@@ -1,0 +1,97 @@
+/* start Global */
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.clearfix{
+    clear:both;
+}
+/* End Global */
+/* Start Main */
+main{
+    width:600px;
+    margin:auto;
+    text-align: center;
+    padding: 30px;
+}
+main h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #171822;
+}
+main p{
+    font-size: 18px;
+    color: #6a6b7c;
+    margin-top:5px;
+    font-weight: bold;
+}
+/* End Main */
+/* Strat Img */
+.container{
+    width:100%;
+    background-color: #DDD;
+}
+.container section{
+    width:20%;
+    height:420px;
+    float:left;
+    background-color: green;
+    overflow: hidden;
+    position: relative;
+}
+
+.container section img{
+    width:100%;
+    height:100%;
+
+}
+
+.container section .icon{
+    width:151px;
+    height:45px;
+    background-color: red; 
+    background-image: linear-gradient(to right, red , yellow);    position: absolute;
+    background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+    top:-47px;
+    left:77px;
+    border-radius: 0 0 5px 5px;
+    transition: .5s all;
+}
+.container section .icon a{
+    margin-left:17px;
+    margin-top:10px;
+    display: inline-block;
+    color:#FFF;
+
+}
+.container section:hover .icon{
+    top:0;
+}
+.container section .info{
+    width:262px;
+    height:85px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 20px;
+    left:-265px;
+    transition: .5s all;
+}
+.container section:hover .info{
+    left:20px;
+}
+.container section .info h5{
+    margin: 13px 0 0 13px;
+    font-size: 20px;
+
+}
+.container section .info p{
+    margin: -6px 0 0px 13px;
+    font-size: 18px;
+    color: #f44949;
+    font-weight: bold;
+}
+/* End Img */
